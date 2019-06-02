@@ -1,8 +1,4 @@
-# coding=utf-8
-import threading
-from stellar.server.action.ios.ios_poco import ios_dump_json
-from stellar.server.action.ios.element_action import ElementAction
-from stellar.server.screen.ios.ios_capture_utils import *
+reen.ios.ios_capture_utils import *
 
 def get_poco_json():
     if provider.manager_current_dict.get('capturing'):
